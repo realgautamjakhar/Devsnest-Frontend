@@ -1,0 +1,57 @@
+body {
+    font-family: monospace;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    padding: 1rem;
+    box-shadow: 20px 13px 50px 8px rgba(0,0,0,0.1);
+
+}
+
+.img-div {
+    background: url("https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 285px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 20px 13px 50px 8px rgba(0,0,0,0.1);
+
+}
+.contents {
+    width: 100%;
+}
+
+.content-row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.card-btn {
+    width: 100px;
+    font-size: small;
+    font-weight: 800;
+    padding: .5rem;
+    border: none;
+    background-color: burlywood;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transition: box-shadow ease-in-out 0.5s;
+    box-shadow: 20px 13px 50px 8px rgba(255, 0, 0, 0.534);
+}
